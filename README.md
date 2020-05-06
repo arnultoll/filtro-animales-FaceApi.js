@@ -24,7 +24,7 @@ A continuación se muestra en la Tabla I el detalle de cada versión especifican
 
 | No. | Commit | Descripción |
 | ------ | ------ | ------ |
-| 1 |  | Carga del modelo y reconocimiento facial |
+| 1 | ae6f1e16bd7042d73a35a3e96bb596e93fca697b | Carga del modelo y reconocimiento facial |
 
 
 # Sitios para descargar SVG
