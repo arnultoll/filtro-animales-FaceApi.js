@@ -230,7 +230,8 @@ class FacePage extends Component {
     render() {
         return (
             <div>
-               
+                
+              
                 <Camera/>
                 <Canva/>
 
@@ -239,7 +240,31 @@ class FacePage extends Component {
                     value={this.state.positionIndex} 
                     onChange={(event)=>{this.setState({positionIndex: event.target.value})}}/> 
 
-          
+
+                     <div className="buscador row">
+            <div className="col s12 m8 offset-2">
+                <form>
+                    <h2>Elije tu filtro</h2>
+                    <div className="input-field col s12 m8">
+                        <select
+                           onChange={(event)=>{this.setState({animals: event.target.value})}}
+                           value={this.state.animals}
+                        >
+                           
+                            <option src ={"/filter/sunglasses1.svg"}>Tigre</option>
+                            <option value='/filter/sunglasses2.svg'>Mono</option>
+                            <option value='/filter/sunglasses3.svg'>Mapache</option>
+                            <option value='/filter/sunglasses4.svg'>Perro</option>
+                            <option value='/filter/sunglasses5.svg'>Gato</option>
+                            <option value='/filter/sunglasses6.svg'>Conejo</option>
+                            <option value='/filter/sunglasses7.svg'>Jaguar</option>
+
+
+                        </select>
+                    </div>
+                </form>
+            </div>
+        </div>           
             </div> 
             
             
